@@ -35,7 +35,7 @@ console.log('\x1b[91m You should choose your move! \x1b[0m');
      move = Scissor
   }
   
-  console.log(`The computer chose ${move}.`)
+  console.log(`The computer choose ${move}.`)
 
   if((playTurn === Rock && move === Scissor) || (playTurn === Scissor && move === Papper) || (playTurn === Papper && move === Rock)){
       console.log(`You win!`)
